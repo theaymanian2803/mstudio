@@ -5,11 +5,7 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   output: 'export',
   images: {
-    remotePatterns: [
-      {
-        unoptimized: true,
-      },
-    ],
+    unoptimized: true,
   },
 }
 
